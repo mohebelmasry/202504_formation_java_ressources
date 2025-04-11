@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
+  <diagram name="Page-1" id="zOdJtCoD2Y29YKCHmNTY">
+    <mxGraphModel dx="2004" dy="1638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="csmiUvRghuo-EAEw4ntK-1" value="VDI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Stockage des livrables&lt;/div&gt;&lt;div&gt;et des dependances&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="220" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Statistiques qualité du code&lt;/div&gt;&lt;div&gt;Régles de qualité&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-4" value="Gitlab CI/CD&lt;br&gt;Déclenchement pipeline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/354365/sonarqube.svg;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-10" value="Gitlab&lt;br&gt;&lt;br&gt;&lt;div&gt;code source&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-11" value="Intellij" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.025;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="csmiUvRghuo-EAEw4ntK-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-170" y="220" as="sourcePoint" />
+            <mxPoint x="-120" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-170" y="121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-13" value="Git&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="150" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="csmiUvRghuo-EAEw4ntK-10" target="csmiUvRghuo-EAEw4ntK-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="200" as="sourcePoint" />
+            <mxPoint x="140" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-15" value="Compilation du code&lt;div&gt;Lancement des tests unitaires&lt;br&gt;Lancement des tests d&#39;intégration&lt;/div&gt;&lt;div&gt;Validation Qualité (SonarQube)&lt;br&gt;Génération de la documentation&lt;br&gt;Packaging&lt;/div&gt;&lt;div&gt;Sauvegarde du livrable sur le serveur Nexus&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-40" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.723;exitY=1.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="csmiUvRghuo-EAEw4ntK-4" target="csmiUvRghuo-EAEw4ntK-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="200" as="sourcePoint" />
+            <mxPoint x="400" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.556;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="csmiUvRghuo-EAEw4ntK-4" target="csmiUvRghuo-EAEw4ntK-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="217" y="171" as="sourcePoint" />
+            <mxPoint x="240" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-23" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.sonatype.com/hubfs/2019%20Product%20logo/Product%20Logo%20SVGs/NexusRepo_Vertical.svg;" vertex="1" parent="1">
+          <mxGeometry x="15" y="228.42" width="50" height="53.96" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-24" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://speedmedia.jfrog.com/08612fe1-9391-4cf3-ac1a-6dd49c36b276/media.jfrog.com/wp-content/uploads/2024/08/08132607/jfrog-logo-2022.svg;" vertex="1" parent="1">
+          <mxGeometry x="130" y="233.53" width="45.07" height="43.75" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-26" value="Splunk&lt;br&gt;- Puit de logs&lt;div&gt;- Tableaux de bords&amp;nbsp;&lt;div&gt;- Alertes par email&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="120" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-27" value="Dynatrace&lt;br&gt;&lt;br&gt;Monitoring des resources (RAM, CPU) et des infrastructures" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="210" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-29" value="MobaXterm&amp;nbsp;&lt;div&gt;(SSH, SCP, etc)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-30" value="Liquidebase : Dépendance Java pour versionner la BDD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-31" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/webp,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;" vertex="1" parent="1">
+          <mxGeometry x="-194" y="370" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-32" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="csmiUvRghuo-EAEw4ntK-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="197" y="172" as="sourcePoint" />
+            <mxPoint x="-110" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="csmiUvRghuo-EAEw4ntK-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-193" y="470" as="sourcePoint" />
+            <mxPoint x="-240" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-34" value="&lt;b&gt;Pour java :&lt;/b&gt; Maven ou&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Gradle&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Pour javascript : &lt;/b&gt;npm ou&lt;b&gt;&amp;nbsp;&lt;/b&gt;yarn&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="480" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-36" value="Ansible&lt;br&gt;Déploiement automatisés sur plusieurs machines" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="100" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="csmiUvRghuo-EAEw4ntK-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="131" as="sourcePoint" />
+            <mxPoint x="-83" y="131" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-39" value="Docker&lt;br&gt;Conteneurisation des applications&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="30" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-40" value="Runner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-41" value="Runner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-42" value="Runner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-43" value="Runner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-44" value="Runner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="csmiUvRghuo-EAEw4ntK-45" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="csmiUvRghuo-EAEw4ntK-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="-35" as="sourcePoint" />
+            <mxPoint x="250" y="-85" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="-150" />
+              <mxPoint x="400" y="-150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

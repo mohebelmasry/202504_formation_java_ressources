@@ -1,0 +1,9 @@
+
+
+Faire la partie API Rest (@RestController) : 
+- GET :  sur toutes les operations
+- GET :  sur une operation
+- POST : creation d'une operation
+
+
+- Tester avec Postman

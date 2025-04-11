@@ -1,0 +1,32 @@
+# 
+- Splunk
+- Dynatrace
+- Docker
+- Openshift / Kubernetes
+- Cloud privé Azure
+
+# 
+- Jenkins ET Gitlab CI
+- Gitlab
+- Jira
+- Confluence/Sharepoint
+- Sonarqube
+
+# Frontend :
+- Angular.js (déprécié)
+- Angular
+
+
+# Backend :
+- JmsTemplate -> envoyer vers MQ
+- JmsListener -> récéptionner depuis MQ
+
+# MQ :
+- Kafka ->
+- MQ IBM + MQ IBM Explorer
+
+# SGBD :
+- PostgreSQL -> 
+- MongoDB -> BDD utilisée par une solution propriétaire
+- Redis -> Cacher les BDD sur Spring Boot
+- DB2 -> Base de données principale

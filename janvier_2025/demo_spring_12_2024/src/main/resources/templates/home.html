@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1>Home Page</h1>
+<p>Welcome <span th:text="${name}"></span></p>
+
+
+
+<div th:each="user : ${users}">
+    <p th:if="user.firstName.equals('B')">User : <span th:text="${user.firstName}"></span></p>
+
+</div>
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi atque blanditiis commodi deserunt, ducimus eos error et eum facere fugiat hic illo nemo nesciunt omnis quae quibusdam reprehenderit repudiandae saepe vitae! Adipisci aut culpa ea fugit qui, quia repellendus voluptas! Autem enim mollitia nemo non quidem recusandae reprehenderit temporibus?</p>
+</body>
+</html>

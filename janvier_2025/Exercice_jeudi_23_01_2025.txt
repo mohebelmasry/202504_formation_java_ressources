@@ -1,0 +1,15 @@
+OK - Mettre un lien pour créér une opération
+OK - Mettre en place la page pour afficher un formulaire de 
+creation d' une operation
+OK - Au clique sur le bouton créér, l'operation doit etre créée
+OK - Une fois créée, une rediretion a lieu vers la liste des d'operation
+
+### RestController :
+OK - Créer un OperationRestController
+OK - GET - Mettre en place la recuperation de toutes les operation
+OK - GET - Mettre en place la recuperation d'une seule operation
+OK - POST - Mettre en place la création d'une operation
+OK - DELETE - Mettre en place la suppression d'une operation
+OK - UPDATE - Mettre en place la mise à jour d'une operation
+
+
